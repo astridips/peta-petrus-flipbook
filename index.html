@@ -5,11 +5,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
+  <script src="path/to/turn.min.js"></script>
+  <script async src="https://cdn.iframe.ly/embed.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <title>Peta Petrus</title>
 </head>
 
-<body>
-  
+<body> 
   
   <div class="flipbook">
     <!-- halaman sampul depan #1 -->
@@ -17,29 +20,191 @@
       <h1>
         Peta Petrus
       </h1>
-      <h2>
-        Peristiwa Penembakan Misterius/ <br>Pembunuhan Misterius
-      </h2>
-      <h3>
+      <h2 style="font-size: 20px; margin-top: -20px; max-width: 80%;">
+        Mengabadikan Jejak Kekerasan: Pembunuhan Misterius di Indonesia 1982–1985
+</h2>
+        <br>
+        <img src="images/indonesia.png" alt="Cover Image" style="width: 100%; position: fixed; border: 10px; margin: 10 px;">
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        Catatan Pelanggaran HAM Berat Tahun 1982-1985.<br>www.petapetrus.com
-      </h3>
+        <h3>
+          Discussion on Human Rights Archive <br>In conjunction with the 8th Human Rights Conference
+          <br><br>Fakultas Hukum Universitas Airlangga
+          <br>Selasa, 12 Agustus 2025 • 10.30–12.00
+        </h3>
     </div>
 
     <!-- halaman sampul depan #2 -->
-    <div class="hard"></div>
-
-    <!-- halaman pengantar -->
-    <div>
-      <br><br><br><br><br><br><br><br>
-      <h2>Tentang Peta Ingatan "Petrus"</h2>
-      <h3 class="text-container">Projek dokumentasi peristiwa Penembakan Misterius (Petrus) yang telah diakui sebagai pelanggaran HAM berat masa lalu dalam Pidato Presiden Joko Widodo pada 11 Januari 2023.
-        <br><br>Dikerjakan secara kolektif dan swadaya, semata-mata untuk kepentingan kemanusiaan dan pendidikan.
-        <br><br><p style="font-size: 12px;">Total Peristiwa: 136</p>
-      </h3>
-      <br><br><br><br><br><br><br><br>
-      <p style="font-size: 12px;">i</p>
+    <div class="hard">
+      <section class="credits">
+        <h2 style="text-align: left;">Penghargaan &amp; Ucapan Terima Kasih</h2>
+      `<br>
+        <h4>Sumber Data &amp; Materi</h4>
+        <p>Seluruh data, kesaksian, peta, dan dokumentasi diadaptasi dari
+          <a href="https://www.petapetrus.com" target="_blank" rel="noopener">www.petapetrus.com</a>,
+          sebuah inisiatif kolektif untuk mendokumentasikan peristiwa
+          <em>Penembakan Misterius (Petrus)</em> 1983–1985.
+        </p>
+        <br>
+        <h4>Tim Peta Petrus</h4>
+        <ul style="margin-left: 10px;">
+          <li>Rian AdhiVira Prabowo</li>
+          <li>Dimas Nugroho</li>
+          <li>Paduka Yang Mulia Kanjeng Ratu Syahrin Shafa Akhsania</li>
+          <li>Bimo</li>
+        </ul>
+        <br>
+        <h4>Kontributor</h4>
+        <ul style="margin-left: 10px;">
+          <li>Semoga Barokah Werk / Pupung</li>
+          <li>Astri Dian Purnamasari</li>
+          <li>Unu Putra Herlambang</li>
+          <li>Moh. Haykal Shokat Ali</li>
+        </ul>
+        <br>
+        <h4>Kontributor Arsip</h4>
+        <ul style="margin-left: 10px;">
+          <li>&dagger; Bati Mulyono</li>
+          <li>RadioBuku</li>
+        </ul>
+        <br>
+        <h4>Penyusun &amp; Desainer Adaptasi</h4>
+        <p>Astri Dian Purnamasari — Penyusunan konten, desain tata letak, dan adaptasi visual untuk format buku dan flipbook interaktif.</p>
+        <br>
+        <h4>Pernyataan Etis</h4>
+        <p>Buku ini disusun untuk tujuan edukasi, pelestarian sejarah, dan diskusi publik mengenai pelanggaran HAM berat. Tidak ada keuntungan komersial yang diambil dari penerbitan ini. Seluruh hak cipta materi asli tetap pada kontributor masing-masing.</p>
+      </section>
+      
     </div>
+
+     <!-- halaman pembuka -->
+     <div class="page back-toc-container">
+        <h2>Jejak Darah yang Tidak Boleh Terhapus<p class="pengantar">
+        Tahun 1983–1985, Indonesia memasuki masa kelam yang hingga kini meninggalkan luka sejarah.
+        <br><br>
+        Rangkaian peristiwa yang dikenal sebagai Penembakan Misterius (Petrus) menewaskan ribuan orang yang dicap “penjahat”, “gali”, atau mantan narapidana — banyak di antaranya tanpa proses hukum.
+        <br><br>
+        Mayat-mayat korban dibiarkan tergeletak di pinggir jalan, sungai, dan tempat-tempat umum sebagai “shock therapy” untuk menakut-nakuti masyarakat.
+        <br><br>
+        Flipbook ini merekam bukti, kesaksian, dan jejak peristiwa tersebut — sebagai pengingat, pelajaran, dan peringatan, agar kejahatan kemanusiaan serupa tidak pernah terulang dan tidak pernah dibungkus menjadi narasi kehormatan.
+        <p style="font-size: 10px;">i</p>
+    </div>
+
+     <!-- halaman pembuka -->
+     <div class="page back-toc-container">
+      <h2>Ringkasan Historis<p class="pengantar">
+        Petrus adalah singkatan dari Penembakan Misterius, operasi negara pada awal 1980-an yang dijalankan oleh aparat militer dan kepolisian. Program ini dimulai di Yogyakarta dan kemudian meluas ke berbagai kota besar, dengan koordinasi dari struktur komando resmi.
+        <br><br>
+        Presiden Soeharto mengakui keberadaan operasi ini dalam otobiografinya, menyebutnya sebagai bagian dari pemberantasan kejahatan. Namun, pada 2011 Komnas HAM menyatakan Petrus sebagai pelanggaran HAM berat karena bersifat terencana, meluas, sistematis, dan dilakukan oleh aparat negara.
+        <br><br>
+        Estimasi jumlah korban bervariasi dari ratusan hingga ribuan. Selama puluhan tahun, tak ada pelaku yang diadili, menjadikan Petrus simbol impunitas di Indonesia.
+        <br><br>
+        Baru pada Januari 2023, Presiden Joko Widodo mengakui secara resmi bahwa Petrus termasuk dalam 12 pelanggaran HAM berat, menyampaikan penyesalan, dan berkomitmen memulihkan hak-hak korban secara adil.
+        <p style="font-size: 10px;">ii</p>
+    </div>
+
+    <div>
+      <section class="potret-singkat">
+        <h2>Potret Singkat Petrus</h2>
+      
+        <div class="table-wrap">
+          <table class="tabel-potret">
+            <tbody>
+              <tr>
+                <th>Apa</th>
+                <td><em>Penembakan Misterius</em> (Petrus) — operasi penembakan di luar hukum oleh negara.</td>
+              </tr>
+              <tr>
+                <th>Siapa</th>
+                <td>Aparat militer dan kepolisian di bawah koordinasi komando resmi.</td>
+              </tr>
+              <tr>
+                <th>Kapan</th>
+                <td>Periode intens 1983–1985; diklasifikasikan pelanggaran HAM berat oleh Komnas HAM (2011); diakui Presiden Joko Widodo (2023).</td>
+              </tr>
+              <tr>
+                <th>Di mana</th>
+                <td>Dimulai di Yogyakarta, lalu meluas ke berbagai kota besar di Indonesia.</td>
+              </tr>
+              <tr>
+                <th>Mengapa</th>
+                <td>Disebut sebagai “pemberantasan kejahatan” melalui <em>shock therapy</em> (teror lewat penampakan jenazah di ruang publik).</td>
+              </tr>
+              <tr>
+                <th>Bagaimana</th>
+                <td>Korban ditembak tanpa proses hukum; jenazah dibiarkan di jalan, sungai, pasar, dan tempat umum untuk menimbulkan rasa takut.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      
+    </div>
+
+    <!-- halaman pembuka -->
+    <div class="page back-toc-container">
+      <h2>Surat Bati Mulyono<p class="pengantar">
+        Surat ini ditulis oleh Bati Mulyono, seorang korban yang selamat, dan ditujukan kepada Presiden Republik Indonesia saat itu (2023), Joko Widodo.
+        <br><br>
+        Di dalamnya terkandung kesaksian langsung, bukti pengakuan Soeharto dari otobiografinya, pernyataan pejabat negara, serta temuan Komnas HAM yang menyatakan Petrus sebagai kejahatan terhadap kemanusiaan yang sistematis dan meluas.
+        <br><br>
+        <strong>Bati Mulyono menuntut dua hal:</strong><br>1. Pengakuan resmi negara bahwa Soeharto dan Orde Baru bertanggung jawab atas Petrus. <br> 2. Pemulihan hak-hak korban beserta keluarganya.<br><br>Ia menegaskan bahwa rekonsiliasi tanpa penetapan pelaku hanyalah menambah luka dan merusak kebenaran sejarah.
+        <br><br><br><br>
+        <p style="font-size: 10px;">iv</p>
+    </div>
+
+     <!-- halaman pembuka -->
+     <div class="page back-toc-container">
+      <iframe src="https://drive.google.com/file/d/1G3tlAWz_YtC5KxwzNn77vCN7Zt8VNxck/preview" width="100%" height="90%" allow="autoplay"></iframe>
+    </div>
+
+  
+    <div class="page back-toc-container">
+      <br><br>
+      <h2>Peta Lokasi Peristiwa Petrus</h2>
+      <img src="images/peta.png" alt="Peta Indonesia" style="width: 100%; position: flex;">
+      <br>
+      <div class="table-wrap">
+        <table class="tabel-ringkasan">
+          <thead>
+            <tr>
+              <th>Daerah</th>
+              <th>Jumlah Peristiwa</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Sumatera</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>Kalimantan</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>Jawa Barat</td>
+              <td>83</td>
+            </tr>
+            <tr>
+              <td>Jawa Tengah</td>
+              <td>23</td>
+            </tr>
+            <tr>
+              <td>Jawa Timur</td>
+              <td>11</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th>Total</th>
+              <th>133</th>
+            </tr>
+          </tfoot>
+        </table>
+        <br><br>
+      </div>
+    </div>
+
 
     <!-- halaman daftar isi 1 #4 -->
      <!-- done -->
@@ -74,12 +239,13 @@
     <!-- halaman daftar isi 2 #5 -->
     <div class="page" data-toc>
       <div class="toc-container">
-        <br>
-        <br><br>Maluku<p style="font-size: 12px;">Peristiwa: 1</p>
+        <!--
+        
+        Maluku<p style="font-size: 12px;">Peristiwa: 1</p>
         <a href="#" data-page="29">1. Ambon, 5 Juli 1983</a>
-    
-        <br>
-        Jawa Barat<p style="font-size: 12px;">Peristiwa: 85</p>
+    -->
+        <br><br><br>
+        Jawa Barat<p style="font-size: 12px;">Peristiwa: 83</p>
         <a href="#" data-page="30">1. Cilegon</a>
         <a href="#" data-page="31">2. Tangerang, 2 Juli 1983</a>
         <a href="#" data-page="32">3. Jakarta Barat, 4 Juli 1983</a>
@@ -95,6 +261,9 @@
         <a href="#" data-page="42">13. Jakarta Utara, 7 Juli 1983</a>
         <a href="#" data-page="43">14. Jakarta Utara, 9 Juli 1983</a>
         <a href="#" data-page="44">15. Jakarta utara, 14 Juli 1983</a>
+        <a href="#" data-page="45">16. Jakarta Utara, 2 Juli 1983</a>
+        <a href="#" data-page="46">17. Jakarta Timur, 9 Juli 1983</a>
+        <a href="#" data-page="47">18. Jakarta Timur, 9 Juli 1983</a>
       </div>
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
       <p style="font-size: 12px; align-items: center;">iii</p>
@@ -104,9 +273,6 @@
     <div class="page" data-toc>
       <div class="toc-container">
         <br><br>
-        <a href="#" data-page="45">16. Jakarta Utara, 2 Juli 1983</a>
-        <a href="#" data-page="46">17. Jakarta Timur, 9 Juli 1983</a>
-        <a href="#" data-page="47">18. Jakarta Timur, 9 Juli 1983</a>
         <a href="#" data-page="48">19. Jakarta Timur, 6 Mei 1983</a>
         <a href="#" data-page="49">20. Jakarta Timur, n/d</a>
         <a href="#" data-page="50">21. Jakarta Timur, 26-27 Mei 1983</a>
@@ -125,6 +291,8 @@
         <a href="#" data-page="63">34. Bekasi, 7 Juli 1983</a>
         <a href="#" data-page="64">35. Bekasi, 23 Juli 1983</a>
         <a href="#" data-page="65">36. Bogor, 9 Juli 1983</a>
+        <a href="#" data-page="66">37. Bogor 27.2</a>
+        <a href="#" data-page="67">38. Bogor, 29 Mei 1983</a>
       </div>
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
       <p style="font-size: 12px; align-items: center;">iv</p>
@@ -134,8 +302,6 @@
     <div class="page" data-toc>
       <div class="toc-container">
         <br><br>
-        <a href="#" data-page="66">37. Bogor 27.2</a>
-        <a href="#" data-page="67">38. Bogor, 29 Mei 1983</a>
         <a href="#" data-page="68">39. Bogor, 2 Juli 1983</a>
         <a href="#" data-page="69">40. Bogor, 17 Juli</a>
         <a href="#" data-page="70">41. Bogor, 25 Juli 1983</a>
@@ -155,6 +321,7 @@
         <a href="#" data-page="84">57. Bandung, 11 Juni 1983</a>
         <a href="#" data-page="85">58. Bandung, 16 Juni 1983</a>
         <a href="#" data-page="86">59. Bandung, 17 Juni 1983</a>
+        <a href="#" data-page="87">60. Bandung, 26 Juli 1983</a>
       </div>
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
       <p style="font-size: 12px; align-items: center;">v</p>
@@ -164,7 +331,6 @@
     <div class="page" data-toc>
       <div class="toc-container">
         <br><br>
-        <a href="#" data-page="87">60. Bandung, 26 Juli 1983</a>
         <a href="#" data-page="88">61. Bandung</a>
         <a href="#" data-page="89">62. Bandung, 21 Juni</a>
         <a href="#" data-page="90">63. Opini Bandung, 14 juni 1983</a>
@@ -273,14 +439,6 @@
       <p style="font-size: 12px; align-items: center;">ix</p>
     </div>
 
-    <!-- halaman pembuka -->
-    <div class="page back-toc-container">
-      <h2><p style="font-size: 12px"></p></h2>
-      SURAT BATI MULYONO
-        <p style="font-size: 12px;">x</p>
-        <a href="#" data-page="4">Daftar Peristiwa</a>
-    </div>
-
     <!-- Mulai daftar isi 1-->
     <!-- Sumatera-->
     <!-- Medan 1 #1-->
@@ -366,7 +524,7 @@
     
     <!-- Bandar Lampung 3 #11-->
     <div class="page back-toc-container">
-      <h2><br>Mayat Residivis Ditemukan<p style="font-size: 12px">Lampung Selatan, 20 Juni 1983</p><br></h2>
+      <h2><br>Mayat Residivis Ditemukan<p style="font-size: 12px">Lampung Selatan, 20 Juni 1983</p></h2>
       <iframe src="https://drive.google.com/file/d/1OmZgmlOiXYTQGnEvoxMLJq63ZBnCzn9U/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">11</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -375,7 +533,7 @@
     <!-- Kalimantan -->
     <!-- Pontianak 1 #12-->
     <div class="page back-toc-container">
-      <h2><br>Penembak Gelap di Pontianak<p style="font-size: 12px">Pontianak, 25 Juni 1983</p><br></h2>
+      <h2><br>Penembak Gelap di Pontianak<p style="font-size: 12px">Pontianak, 25 Juni 1983</p></h2>
       <iframe src="https://drive.google.com/file/d/1c7OO855sqqQXIjhUNWft4SBtSBnjLVYY/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">12</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -431,7 +589,7 @@
     <!-- Jawa Barat -->
     <!-- Cilegon 1 #18-->
     <div class="page back-toc-container">
-      <h2>Korban<br><p style="font-size: 12px">Cilegon</p><br></h2>
+      <h2>Korban<br><p style="font-size: 12px">Cilegon</p></h2>
       <iframe src="https://drive.google.com/file/d/1SKM60uZDi7KRvMNo7NWWNcnNHA-lqUQ9/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">18</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -439,7 +597,7 @@
 
     <!-- Tangerang 1 #19-->
     <div class="page back-toc-container">
-      <h2>Ayah Korban "Misterius" Melapor<br><p style="font-size: 12px">Tangerang, 2 Juli 1983</p><br></h2>
+      <h2>Ayah Korban "Misterius" Melapor<br><p style="font-size: 12px">Tangerang, 2 Juli 1983</p></h2>
       <iframe src="https://drive.google.com/file/d/1M6sx2fS-7tLqHeRAFm4MDZ71efpUWDrj/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">19</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -487,7 +645,7 @@
 
     <!-- Jakarta Pusat 3 #25-->
     <div class="page back-toc-container">
-      <h2>Dua Korban Penembak Gelap<br><p style="font-size: 12px">Jakarta Pusat, 2 Juli 1983</p><br></h2>
+      <h2>Dua Korban Penembak Gelap<br><p style="font-size: 12px">Jakarta Pusat, 2 Juli 1983</p></h2>
       <iframe src="https://drive.google.com/file/d/14J24kSgbo4YlYUknVBW9ucYSItezs8Xs/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">25</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -495,7 +653,7 @@
 
     <!-- Jakarta Pusat 4 #26-->
     <div class="page back-toc-container">
-      <h2>Lelaki Bertato Tewas Dikeroyok<br><p style="font-size: 12px">Jakarta Pusat</p><br></h2>
+      <h2>Lelaki Bertato Tewas Dikeroyok<br><p style="font-size: 12px">Jakarta Pusat</p></h2>
       <iframe src="https://drive.google.com/file/d/1vKZTZ0xSN3wc606RIXI5Uy9AaI3CYDJW/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">26</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -519,7 +677,7 @@
 
     <!-- Jakarta Selatan 3 #29-->
     <div class="page back-toc-container">
-      <h2>Galakkan Hukuman Mati<p style="font-size: 12px">Opini Jakarta Selatan</p><br></h2>
+      <h2>Galakkan Hukuman Mati<p style="font-size: 12px">Opini Jakarta Selatan</p></h2>
       <iframe src="https://drive.google.com/file/d/1xcBNJDmSe40cl4IwKy_fWt0-fSUZmWtP/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">29</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -557,7 +715,7 @@
 
     <!-- Jakarta Utara 3 #33-->
     <div class="page back-toc-container">
-      <h2>Dua Korban Penembak Gelap<p style="font-size: 12px">Jakarta Utara, 2 Juli 1983</p><br></h2>
+      <h2>Dua Korban Penembak Gelap<p style="font-size: 12px">Jakarta Utara, 2 Juli 1983</p></h2>
       <iframe src="https://drive.google.com/file/d/1JxOGv4K1iMthWt4HhMMwleEhXYlS_KDb/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">33</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -565,7 +723,7 @@
 
     <!-- Jakarta Timur 1 #34-->
     <div class="page back-toc-container">
-      <h2>Mayat Bertato Ditemukan<p style="font-size: 12px">Jakarta Timur, 9 Juli 1983</p><br></h2>
+      <h2>Mayat Bertato Ditemukan<p style="font-size: 12px">Jakarta Timur, 9 Juli 1983</p></h2>
       <iframe src="https://drive.google.com/file/d/12b3KN-JVu6QtV-MNCAdy7ixPC9u91fzJ/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">34</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -582,15 +740,14 @@
     <!-- Jakarta Timur 3 #36-->
      <!--file do not exist-->
     <div class="page back-toc-container">
-      <h2><p style="font-size: 12px">Jakarta Timur, 6 Mei 1983</p></h2>
-      FILE DO NOT EXIST
-        <p style="font-size: 12px;">36</p>
+      <h2>Lagi, Residivis Ditembak<p style="font-size: 12px">Jakarta Timur, 6 Mei 1983</p></h2>
+      <iframe src="https://drive.google.com/file/d/1x_znLEn9TKg23dKbCPNCB7nIRfuhI6YX/preview" width="420" height="400" allow="autoplay"></iframe>        <p style="font-size: 12px;">36</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
     </div>
 
     <!-- Jakarta Timur 4 #37-->
     <div class="page back-toc-container">
-      <h2>Galakkan Hukuman Mati<p style="font-size: 12px">Jakarta Timur, n/d</p><br></h2>
+      <h2>Galakkan Hukuman Mati<p style="font-size: 12px">Jakarta Timur, n/d</p></h2>
       <iframe src="https://drive.google.com/file/d/1vhG1lDf-ryGE-rjhShrSuWFq8cIvx8-V/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">37</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -598,7 +755,7 @@
 
     <!-- Jakarta Timur 4 #38-->
     <div class="page back-toc-container">
-      <h2>Galakkan Hukuman Mati<p style="font-size: 12px">Jakarta Timur, 26-27 Mei 1983</p><br></h2>
+      <h2>Galakkan Hukuman Mati<p style="font-size: 12px">Jakarta Timur, 26-27 Mei 1983</p></h2>
       <iframe src="https://drive.google.com/file/d/1b738rd42BNvNkpwqDl6hg2fMGe7rENJm/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">38</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -654,7 +811,7 @@
 
     <!-- Jakarta 1 #45 -->
     <div class="page back-toc-container">
-      <h2>Galakkan Hukuman Mati<p style="font-size: 12px">Opini Jakarta</p><br></h2>
+      <h2>Galakkan Hukuman Mati<p style="font-size: 12px">Opini Jakarta</p></h2>
       <iframe src="https://drive.google.com/file/d/18_w0pMZuGyYcssfVZAPm4Z4CDyDg5-U1/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">45</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -662,7 +819,7 @@
 
     <!-- Jakarta 1 #46 -->
     <div class="page back-toc-container">
-      <h2>Gepeng Tidak Wajib Ditahan<p style="font-size: 12px">Opini Buyung Jakarta, 5 Juli 1983</p><br></h2>
+      <h2>Gepeng Tidak Wajib Ditahan<p style="font-size: 12px">Opini Buyung Jakarta, 5 Juli 1983</p></h2>
       <iframe src="https://drive.google.com/file/d/1TdU7HhuZcuWAEtorQ-9-QD-tF2rOn8I6/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">46</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -694,25 +851,22 @@
 
     <!-- Bekasi 1 #50 -->
     <div class="page back-toc-container">
-      <h2><p style="font-size: 12px">Bekasi, 1 Juli 1983</p></h2>
-      ACCESS DENIED
-        <p style="font-size: 12px;">50</p>
+      <h2>Gara-Gara Ambulance Mogok<br>Mayat Bertatto Diseret Selama 3 Jam<p style="font-size: 12px">Bekasi, 1 Juli 1983</p></h2>
+      <iframe src="https://drive.google.com/file/d/1JX16tXBmoj8SnWVVlwSWzTEtuDtGNkA3/preview" width="420" height="400" allow="autoplay"></iframe>        <p style="font-size: 12px;">50</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
     </div>
 
     <!-- Bekasi 2 #51 -->
     <div class="page back-toc-container">
-      <h2><p style="font-size: 12px">Bekasi, 7 Juli 1983</p></h2>
-      ACCESS DENIED
-        <p style="font-size: 12px;">51</p>
+      <h2>Laki-Laki Bertato Wanita Telanjang<br>Tergeletak Ditembus Peluru<p style="font-size: 12px">Bekasi, 7 Juli 1983</p></h2>
+      <iframe src="https://drive.google.com/file/d/10mSAV201ekAF7ZRuLv8PN6ozKfpb0dFO/preview" width="420" height="400" allow="autoplay"></iframe>        <p style="font-size: 12px;">51</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
     </div>
 
     <!-- Bekasi 3 #52 -->
     <div class="page back-toc-container">
-      <h2><p style="font-size: 12px">Bekasi, 23 Juli 1983</p></h2>
-      ACCESS DENIED
-        <p style="font-size: 12px;">52</p>
+      <h2>6 Laki-Laki Tak Dikenal<br>Mati Di Dor<p style="font-size: 12px">Bekasi, 23 Juli 1983</p></h2>
+      <iframe src="https://drive.google.com/file/d/1GEtzWCv9GQZFOAyngzm3QeNWdCzzTLHu/preview" width="420" height="400" allow="autoplay"></iframe>        <p style="font-size: 12px;">52</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
     </div>
 
@@ -772,7 +926,7 @@
 
     <!-- Bogor 7 #59-->
     <div class="page back-toc-container">
-      <h2>Korban<p style="font-size: 12px">Bogor</p><br></h2>
+      <h2>Korban<p style="font-size: 12px">Bogor</p></h2>
       <iframe src="https://drive.google.com/file/d/1wq8iybnN-8Axkb12utn8MmTMW1NHEi2D/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">59</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -780,7 +934,7 @@
 
     <!-- Sukabumi #60-->
     <div class="page back-toc-container">
-      <h2>Korban<p style="font-size: 12px">Sukabumi</p><br></h2>
+      <h2>Korban<p style="font-size: 12px">Sukabumi</p></h2>
       <iframe src="https://drive.google.com/file/d/1OmZgmlOiXYTQGnEvoxMLJq63ZBnCzn9U/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">60</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -804,7 +958,7 @@
 
     <!-- Cianjur 3 #63-->
     <div class="page back-toc-container">
-      <h2>Korban<p style="font-size: 12px">Cianjur</p><br></h2>
+      <h2>Korban<p style="font-size: 12px">Cianjur</p></h2>
       <iframe src="https://drive.google.com/file/d/16fD_y1tpjj9tNq5IQSFMfCawbLJGOLzG/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">63</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -836,7 +990,7 @@
 
     <!-- Karawang 4 -->
     <div class="page back-toc-container">
-      <h2>Korban<p style="font-size: 12px">Karawang</p><br></h2>
+      <h2>Korban<p style="font-size: 12px">Karawang</p></h2>
       <iframe src="https://drive.google.com/file/d/1BuFSvBQuIh9GwgfQPQgqrue1QpKPpxOH/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">67</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -844,9 +998,8 @@
 
     <!-- Cikampek -->
     <div class="page back-toc-container">
-      <h2><p style="font-size: 12px">Cikampek</p></h2>
-      ACCESS DENIED
-        <p style="font-size: 12px;">68</p>
+      <h2>Korban<p style="font-size: 12px">Cikampek</p></h2>
+      <iframe src="https://drive.google.com/file/d/1RPfuSwet6rOmhlHRNRuFwk09DGgkQ4-3/preview" width="420" height="400" allow="autoplay"></iframe>        <p style="font-size: 12px;">68</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
     </div>
 
@@ -876,7 +1029,7 @@
 
     <!-- Bandung 4 -->
     <div class="page back-toc-container">
-      <h2>Ijin Menghilangkan Tato<p style="font-size: 12px">Bandung, 11 Juni 1983</p><br></h2>
+      <h2>Ijin Menghilangkan Tato<p style="font-size: 12px">Bandung, 11 Juni 1983</p></h2>
       <iframe src="https://drive.google.com/file/d/1NjQa5OfWOpsVqfNOkrGtWubgnfPy26O6/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">72</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -937,7 +1090,7 @@
 
     <!-- Bandung 11 -->
     <div class="page back-toc-container">
-      <h2>Dua Penjahat Tewas Tertembak<p style="font-size: 12px">Bandung, 25 Juni 1983</p><br></h2>
+      <h2>Dua Penjahat Tewas Tertembak<p style="font-size: 12px">Bandung, 25 Juni 1983</p></h2>
       <iframe src="https://drive.google.com/file/d/1F8YgkzjkLy00uCLisuFDBnn3jHv7S_X-/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">79</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -945,7 +1098,7 @@
 
     <!-- Subang -->
     <div class="page back-toc-container">
-      <h2>Korban<p style="font-size: 12px">Subang</p><br></h2>
+      <h2>Korban<p style="font-size: 12px">Subang</p></h2>
       <iframe src="https://drive.google.com/file/d/1zcreqMH5SZihSLChUhIHIcj8Arp2Js-N/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">80</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -953,15 +1106,14 @@
 
     <!-- Sumedang -->
     <div class="page back-toc-container">
-      <h2><p style="font-size: 12px">Sumedang, 7 Juli 1983</p></h2>
-      ACCESS DENIED
-        <p style="font-size: 12px;">81</p>
+      <h2>Laki-Laki Bertato Wanita Telanjang<br>Tergeletak Ditembus Peluru<p style="font-size: 12px">Sumedang, 7 Juli 1983</p></h2>
+      <iframe src="https://drive.google.com/file/d/15LrBF7t1V4EmM_keN9xRFANlnSxBMTgx/preview" width="420" height="400" allow="autoplay"></iframe>        <p style="font-size: 12px;">81</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
     </div>
 
     <!-- Garut 1 -->
     <div class="page back-toc-container">
-      <h2>Mayat Bertato Ditemukan di Kota Garut<p style="font-size: 12px">Garut, 9 Juni 1983</p><br></h2>
+      <h2>Mayat Bertato Ditemukan di Kota Garut<p style="font-size: 12px">Garut, 9 Juni 1983</p></h2>
       <iframe src="https://drive.google.com/file/d/1AxpRQbcFFCYCHQwyXix1ns_NjLe6DTWV/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">82</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -985,17 +1137,15 @@
 
     <!-- Garut 4 -->
     <div class="page back-toc-container">
-      <h2><p style="font-size: 12px">Garut, 22 Juli</p></h2>
-      ACCESS DENIED
-        <p style="font-size: 12px;">85</p>
+      <h2>27 Ditangkap Di Garut<br>Karena Menanam Ganja<p style="font-size: 12px">Garut, 22 Juli</p></h2>
+      <iframe src="https://drive.google.com/file/d/1z7hPAgOzcKwEV6V0oLj4vbDjWCT6L1Ql/preview" width="420" height="400" allow="autoplay"></iframe>        <p style="font-size: 12px;">85</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
     </div>
 
     <!-- Garut 5 -->
     <div class="page back-toc-container">
-      <h2><p style="font-size: 12px">Garut</p></h2>
-      ACCESS DENIED
-        <p style="font-size: 12px;">86</p>
+      <h2>Korban Penembakan Misterius di<br>Jawa Barat Mencapai 127 Orang<p style="font-size: 12px">Garut</p></h2>
+      <iframe src="https://drive.google.com/file/d/1Q15CIUDGdH-pV7nAjgo1JTDN8M4ohZ6B/preview" width="420" height="400" allow="autoplay"></iframe>        <p style="font-size: 12px;">86</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
     </div>
 
@@ -1018,7 +1168,7 @@
 
     <!-- Tasikmalaya 2 -->
     <div class="page back-toc-container">
-      <h2>Lagi, Tiga Mayat Ditemukan di Priangan Timur<p style="font-size: 12px">Tasikmalaya, 19 Juli 1983</p><br></h2>
+      <h2>Lagi, Tiga Mayat Ditemukan di Priangan Timur<p style="font-size: 12px">Tasikmalaya, 19 Juli 1983</p></h2>
       <iframe src="https://drive.google.com/file/d/107fmf6UMNXTuqgwg2pDs1V89r9190rjI/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">89</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -1026,7 +1176,7 @@
 
     <!-- Tasikmalaya 3 -->
     <div class="page back-toc-container">
-      <h2>Korban<p style="font-size: 12px">Tasikmalaya</p><br></h2>
+      <h2>Korban<p style="font-size: 12px">Tasikmalaya</p></h2>
       <iframe src="https://drive.google.com/file/d/1XP_tehYxWmpkL_lWiyg4_ixo9EeXSyWf/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">90</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -1063,7 +1213,7 @@
 
     <!-- Ciamis 4 -->
     <div class="page back-toc-container">
-      <h2>Korban<p style="font-size: 12px">Ciamis</p><br></h2>
+      <h2>Korban<p style="font-size: 12px">Ciamis</p></h2>
       <iframe src="https://drive.google.com/file/d/1M5Ypgb5fYMY6vQLti0Y24s5uuljNXHMR/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">94</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -1087,7 +1237,7 @@
 
     <!-- Cirebon 3 -->
     <div class="page back-toc-container">
-      <h2>Lagi, Dua Korban Penembakan Gelap<p style="font-size: 12px">Cirebon, 5 Juli 1983</p><br></h2>
+      <h2>Lagi, Dua Korban Penembakan Gelap<p style="font-size: 12px">Cirebon, 5 Juli 1983</p></h2>
       <iframe src="https://drive.google.com/file/d/1FEriVfh_mwoTP2sz96oGtU1RR_mPaz_g/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">97</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -1095,7 +1245,7 @@
 
     <!-- Cirebon 4 -->
     <div class="page back-toc-container">
-      <h2>Korban<p style="font-size: 12px">Cirebon</p><br></h2>
+      <h2>Korban<p style="font-size: 12px">Cirebon</p></h2>
       <iframe src="https://drive.google.com/file/d/1COCM4JRdOsnSsyToTq_eb4g3cgMCtQDs/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">98</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -1155,7 +1305,7 @@
 
     <!-- Yogyakarta 2 -->
     <div class="page back-toc-container">
-      <h2>"Gali Kebal Tewas Telanjang"<p style="font-size: 12px">Yogyakarta, 20 Juli 1983</p><br></h2>
+      <h2>"Gali Kebal Tewas Telanjang"<p style="font-size: 12px">Yogyakarta, 20 Juli 1983</p></h2>
       <iframe src="https://drive.google.com/file/d/1RNAqZAAnjmBVNJj8Y3qseEUPjMbWz77z/preview" width="420" height="400" allow="autoplay"></iframe>
         <p style="font-size: 12px;">105</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
@@ -1171,17 +1321,15 @@
 
     <!-- Yogyakarta 4 -->
     <div class="page back-toc-container">
-      <h2><p style="font-size: 12px">Yogyakarta, 10 April 1983</p></h2>
-      ACCESS DENIED
-        <p style="font-size: 12px;">107</p>
+      <h2>Sembilan Penjahat Tewas<br>Dan 12 Lagi Luka Berat Tertembak<p style="font-size: 12px">Yogyakarta, 10 April 1983</p></h2>
+      <iframe src="https://drive.google.com/file/d/1ucKodL5vBfsGp9NxndieLHJiQMXz_Upu/preview" width="420" height="400" allow="autoplay"></iframe>        <p style="font-size: 12px;">107</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
     </div>
 
     <!-- Yogyakarta 5 -->
     <div class="page back-toc-container">
-      <h2><p style="font-size: 12px">Yogyakarta</p></h2>
-      ACCESS DENIED
-        <p style="font-size: 12px;">108</p>
+      <h2>Dua Janda Gali Minta Perlindungan<p style="font-size: 12px">Yogyakarta</p></h2>
+      <iframe src="https://drive.google.com/file/d/1l7ikg5aLmeYdeNvWV0xmCIwSQhdOoqLj/preview" width="420" height="400" allow="autoplay"></iframe>        <p style="font-size: 12px;">108</p>
         <a href="#" data-page="4">Daftar Peristiwa</a>
     </div>
 
@@ -1465,6 +1613,60 @@
         }
       });
     </script>
+
+<script>
+  let map; // simpan instance
+
+  function initMapOnce(){
+    if (map) return; // sudah dibuat
+    map = L.map('map-petrus', {
+      preferCanvas: true,
+      zoomControl: true,
+      scrollWheelZoom: false // biar scroll halaman gak “nyangkut” zoom
+    }).setView([-7.79, 110.37], 12); // contoh Yogyakarta
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors',
+      maxZoom: 19
+    }).addTo(map);
+
+    // contoh marker
+    L.marker([-7.797068,110.370529]).addTo(map).bindPopup('Yogyakarta');
+
+    // Blokir event interaksi map agar tidak diinterpretasi Turn.js
+    const mapEl = document.getElementById('map-petrus');
+    const stop = e => e.stopPropagation();
+    ['touchstart','touchmove','touchend','mousedown','mousemove','mouseup','wheel']
+      .forEach(evt => mapEl.addEventListener(evt, stop, { passive:false }));
+  }
+
+  // Buat/betulkan ukuran saat halaman peta tampil
+  $(function(){
+    const $book = $('.flipbook');
+    const mapPageIndex = $('#map-page').index() + 1; // nomor halaman (1-based)
+
+    // saat buku selesai init
+    setTimeout(() => {
+      const current = $book.turn('page');
+      if (current === mapPageIndex || current + 1 === mapPageIndex) {
+        initMapOnce();
+        setTimeout(() => map.invalidateSize(), 0);
+      }
+    }, 0);
+
+    // setiap ganti halaman
+    $book.bind('turned', function (e, page) {
+      const visible = (page === mapPageIndex || page + 1 === mapPageIndex);
+      if (visible) {
+        initMapOnce();
+        setTimeout(() => map.invalidateSize(), 0);
+      }
+    });
+
+    // resize jendela
+    window.addEventListener('resize', () => { if (map) map.invalidateSize(); });
+  });
+</script>
     
 
 <!--
